@@ -1,0 +1,13 @@
+name: echohearts-infrastructure
+on:
+  pull_request:
+    paths: ['EchoheartsRebearth/schemas/**', 'EchoheartsRebearth/fixtures/**', 'EchoheartsRebearth/BuildScripts/**', '.github/workflows/echohearts-infrastructure.yml']
+  push:
+    branches: [main]
+    paths: ['EchoheartsRebearth/schemas/**', 'EchoheartsRebearth/fixtures/**', 'EchoheartsRebearth/BuildScripts/**', '.github/workflows/echohearts-infrastructure.yml']
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 EchoheartsRebearth/BuildScripts/verify_infrastructure.py
