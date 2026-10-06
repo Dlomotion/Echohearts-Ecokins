@@ -1,0 +1,13 @@
+name: infrastructure
+on:
+  pull_request:
+    paths: ['schemas/**', 'fixtures/**', 'BuildScripts/**', '.github/workflows/infrastructure.yml']
+  push:
+    branches: [main]
+    paths: ['schemas/**', 'fixtures/**', 'BuildScripts/**', '.github/workflows/infrastructure.yml']
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 BuildScripts/verify_infrastructure.py

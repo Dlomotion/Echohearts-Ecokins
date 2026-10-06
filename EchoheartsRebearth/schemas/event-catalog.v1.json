@@ -1,0 +1,6 @@
+{
+  "version": "1",
+  "status": "REPOSITORY_CHECKED",
+  "runtime_verification": "NOT_VERIFIED",
+  "events": ["session_start", "session_end", "player_spawn"]
+}

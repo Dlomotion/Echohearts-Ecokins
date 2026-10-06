@@ -1,0 +1,9 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "",
+  "Description": "Echohearts Rebearth",
+  "Modules": [
+    { "Name": "EchoheartsRebearth", "Type": "Runtime", "LoadingPhase": "Default" }
+  ]
+}
