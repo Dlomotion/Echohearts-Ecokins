@@ -4,7 +4,8 @@
 - Repository: `Dlomotion/Echohearts-Ecokins`
 - Role: `ECOKIN_SUPPORT`
 - Eco-Kin-focused support repository. Preserve roster/ecology/art/reference work, but treat the 125-ID Permanent Dex and canon in the primary production repository as authoritative. Do not auto-promote historical names.
-- Canon/contracts/Dex authority: **Dlomotion/Echohearts-Rebearth**\n- Executable UE5.8 runtime/build/evidence authority: **Dlomotion/ECHOHEARTS-REBEARTH-BUILD-**
+- Canon/contracts/Dex authority: **Dlomotion/Echohearts-Rebearth**
+- Executable UE5.8 runtime/build/evidence authority: **Dlomotion/ECHOHEARTS-REBEARTH-BUILD-**
 - Related repositories:
   - `Dlomotion/echohearts-web`
   - `Dlomotion/Echohearts-Ecokins`
