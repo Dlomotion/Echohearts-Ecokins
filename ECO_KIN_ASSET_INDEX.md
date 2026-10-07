@@ -39,5 +39,9 @@ Each benchmark image must contain only clean archival text: `ECO-KIN’S`, the e
 ### Existing-art preservation
 When an older approved image is located, preserve it under its stable specimen ID and increment the version only for an intentional revision. Do not generate a replacement merely because a new conversation started.
 
+## Intake validation status
+
+The intake report states that PNG validation and ZIP integrity checks passed. Creature links and item codes without an authoritative match remain unresolved; do not infer or invent mappings. The unavailable original PNG `file_00000000ed0062309c7d3ff2fce23f01.png` is excluded from this intake and must not be reconstructed or treated as recovered.
+
 ### Variant rule
 `SHIMMER` and `HEX` are forms, not new species. They must preserve the original species/DNA, body plan, silhouette family, element identity, ecology, and role. Variant art gets a new form filename but keeps the same stable specimen ID.

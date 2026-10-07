@@ -227,7 +227,7 @@ Retain commands, logs, exit codes, exact SHA/platform/engine version, artifacts 
 
 Chat scratch paths are temporary and are not repository assets or portable Copilot inputs. Check existence/readability before use. Recover original bytes, inspect the actual image, map it to the approved identity and provenance, and version edits separately. Do not replace approved art because a source is missing.
 
-The chat reports file_00000000ed0062309c7d3ff2fce23f01.png as unavailable: PENDING IMPORT, request re-upload, do not claim recovery/use. Other listed chat attachments require explicit repository import/provenance before Copilot can use them. This brief does not import or visually approve the images.
+The chat reports file_00000000ed0062309c7d3ff2fce23f01.png as unavailable and excluded from the intake; do not claim recovery/use or reconstruct it. Request re-upload only if it is needed later. Other listed chat attachments require explicit repository import/provenance before Copilot can use them. This brief does not import or visually approve the images.
 
 ## Required Copilot response for every implementation pass
 
