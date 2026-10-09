@@ -1,0 +1,148 @@
+{
+  "schema_version": "0.1.0",
+  "status": "PROPOSAL_NOT_CANON",
+  "source_issue": "https://github.com/Dlomotion/Echohearts-Rebearth/issues/48",
+  "notes": "SVG vector concepts are new editable illustrations, not the original generated cinematic raster artwork. Resonant forms are visual variants, not automatically approved evolutions. Verify species uniqueness against authoritative Dex before canon promotion.",
+  "forms": [
+    {
+      "eco_kin_id": "terakla",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/terakla_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "terakla",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/terakla_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "nyashaq",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/nyashaq_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "nyashaq",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/nyashaq_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "trembala",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/trembala_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "trembala",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/trembala_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "lithassa",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/lithassa_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "lithassa",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/lithassa_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "dunelurk",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/dunelurk_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "dunelurk",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/dunelurk_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "kapsa",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/kapsa_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "kapsa",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/kapsa_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "tidarak",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/tidarak_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "tidarak",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/tidarak_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "mycotrak",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/mycotrak_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "mycotrak",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/mycotrak_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "azeni",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/azeni_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "azeni",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/azeni_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "vumbaki",
+      "form_id": "base",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/vumbaki_base.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    },
+    {
+      "eco_kin_id": "vumbaki",
+      "form_id": "resonant",
+      "art_path": "03_EcoKin_Dex/Concept_Art/African_Ecosystems/vumbaki_resonant.svg",
+      "canon_status": "PROPOSAL",
+      "evolution_status": "UNVERIFIED"
+    }
+  ]
+}
