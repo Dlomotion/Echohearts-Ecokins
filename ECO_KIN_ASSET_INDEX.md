@@ -40,4 +40,9 @@ Each benchmark image must contain only clean archival text: `ECO-KIN’S`, the e
 When an older approved image is located, preserve it under its stable specimen ID and increment the version only for an intentional revision. Do not generate a replacement merely because a new conversation started.
 
 ### Variant rule
+
 `SHIMMER` and `HEX` are forms, not new species. They must preserve the original species/DNA, body plan, silhouette family, element identity, ecology, and role. Variant art gets a new form filename but keeps the same stable specimen ID.
+
+## 2026-10-08 visual-wave provenance
+
+See [the 2026-10-08 visual-wave provenance intake](intake/ECOKIN_VISUAL_WAVE_PROVENANCE_2026-10-08.md) for proposal status, source-image availability, QA limits, and canonical identity linkage. EK-065 through EK-097 are visual labels only, not Permanent Dex IDs.
