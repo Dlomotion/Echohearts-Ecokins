@@ -1,0 +1,56 @@
+{
+  "schema_version": "0.1.0",
+  "name": "Aquaravis",
+  "epithet": "The Reef Phantom",
+  "status": "PROPOSAL",
+  "rarity": "Epic",
+  "inspiration": "User-provided octopus photograph",
+  "habitat": "African coastal reefs and sandy seabeds",
+  "elements": [
+    "Water",
+    "Light"
+  ],
+  "family": "Marine / Stealth Guardian",
+  "attributes": [
+    "Vibrance",
+    "Density",
+    "Harmony",
+    "Purity"
+  ],
+  "signature_ability": {
+    "name": "Luminous Veil",
+    "description": "Bioluminescent concealment field protects allies and reveals hidden threats",
+    "implementation_status": "DESIGN_ONLY"
+  },
+  "forms": [
+    {
+      "id": "base",
+      "name": "Aquaravis",
+      "type": "base"
+    },
+    {
+      "id": "tidal_glow",
+      "name": "Tidal Glowform",
+      "type": "alternate"
+    },
+    {
+      "id": "shadowreef",
+      "name": "Shadowreef Form",
+      "type": "alternate"
+    },
+    {
+      "id": "sandstrike",
+      "name": "Sandstrike Form",
+      "type": "alternate"
+    },
+    {
+      "id": "prime",
+      "name": "Aquaravis Prime",
+      "type": "proposed_evolution"
+    }
+  ],
+  "evolution_hook": "80% Bond, restore three reef habitats, maintain stability across a full tidal cycle",
+  "art_source": "User-provided image in ChatGPT conversation; binary not yet committed",
+  "concept_poster": "Generated ChatGPT image; binary not yet committed",
+  "canon_check": "REQUIRED_BEFORE_PROMOTION"
+}
