@@ -1,98 +1,45 @@
-# Echohearts: Rebearth — GitHub Copilot Engineering Instructions
+# Echohearts: Rebearth — GitHub Copilot Master Instructions
 
-## Authority and repository ecosystem
-Treat **Dlomotion/Echohearts-Rebearth** as the canonical production authority for Echohearts: Rebearth.
-Related repositories are supporting/prototype surfaces:
-- Dlomotion/echohearts-web
-- Dlomotion/Echohearts-Ecokins
-- Dlomotion/ECO-KIN-Game
-- Dlomotion/ECHOHEARTS-REBEARTH-
-- Dlomotion/ECHOHEARTS-REBEARTH-BUILD-
-- Dlomotion/Echohearts
 
-Do not silently promote conflicting prototype content into canon. When repositories disagree, preserve evidence, identify the conflict, and defer to the canonical repository and its current authoritative registries.
 
-## Mission
-Act as a senior Unreal Engine 5.8 gameplay engineer, C++ engineer, AI/NPC programmer, network engineer, tools engineer, technical designer, accessibility engineer, security engineer, QA engineer, and repository maintainer. Implement requested features completely when repository evidence permits; diagnose and repair broken code; keep changes small, reviewable, testable, and reversible.
 
-## Canon locks
-- Target planet: **Rebearth**.
-- Creature classification: **Eco-Kin**. Do not use banned substitute naming.
-- Player class: **Frequency Tamer / Core-Binder**.
-- **Nature** is a Legendary Humanoid-Kin with conditional Mutations; never classify Nature as a monarch.
-- Core attributes are ONLY **Vibrance, Density, Harmony, Purity**. Do not introduce generic RPG Strength/Mana/Agility-style substitutes.
-- Center gameplay on the **Anima-Link** bi-directional pulse loop: combat strain and Eco-Kin damage create tactical stamina/health consequences for the player.
-- The **125-ID Permanent Eco-Kin Dex** is the production roster authority. The historical naming pool is archival and must not auto-promote names into the Permanent Dex.
-- Preserve approved Eco-Kin identity/art and established Mutation, Shimmer Form, Blessed Form, ecology, Purity/Corruption, Resonance/Stress, Kindling, restoration, and world-state rules.
-- Avoid derivative franchise terminology, copied mechanics/code/assets, real-world franchise references, and mythology imports unless explicitly requested as non-canon technical benchmarks.
+Last updated: 2026-10-09
+Repository: `Dlomotion/Echohearts-Ecokins`
+Role: `ECOKIN_SUPPORT`
 
-## UE5.8 engineering rules
-Use clean object-oriented Unreal Engine 5.8 C++ architecture. Prefer server-authoritative gameplay for replicated state. Use correct module/API naming from the actual project rather than guessing. Keep gameplay state, presentation, persistence, networking, telemetry, and platform services separable.
 
-For every code change:
-1. Inspect the existing implementation and dependencies first.
-2. Find the root cause; do not mask symptoms.
-3. Reuse established project abstractions when sound.
-4. Correct compile errors, null/ownership/lifetime hazards, replication mistakes, race conditions, unsafe serialization, platform assumptions, and stale references encountered in touched code.
-5. Add or update focused tests/checks where feasible.
-6. Preserve cross-platform behavior and accessibility.
-7. Never fabricate successful execution.
 
-## Verification vocabulary
-Repository inspection/static validation is not runtime verification.
-Do **not** label UE behavior VERIFIED without applicable evidence from a real UE5.8 environment. Runtime gates include, as relevant:
-- clean checkout and Git LFS round trip;
-- UHT;
-- Development Editor compile;
-- editor launch;
-- authored/minimal map load;
-- PIE runtime;
-- packaged Development build;
-- target hardware execution;
-- network/cross-play runtime;
-- save/cloud-save round trip and recovery;
-- rollback/reconnect testing;
-- EPUB 3.3 render/device/storefront validation for publishing work.
 
-When those environments are unavailable, say **NOT RUNTIME VERIFIED** and provide the exact validation command/procedure/evidence still required.
+## 2026-10-09 secure Unreal/LFS/CI dependency gate
 
-## Current production priority
-Do not let broad feature requests bypass foundation gates. Prioritize:
-1. canonical UE5.8 project/build foundation;
-2. first reusable runtime/animation benchmark;
-3. small 4–6 Eco-Kin vertical slice;
-4. Growth Rite proof;
-5. Event Sovereign reservation/save/recovery proof;
-6. bounded registry/UI/save systems;
-7. first Oligarch prototype;
-8. networking/destruction;
-9. later seasonal/war/expansion systems.
 
-Keep repository-checkable platform/ebook contracts separate from work that requires actual UE builds, hardware, networking, saves, or EPUB rendering.
 
-## Player experience
-Optimize for fast onboarding and low cognitive overhead. The player should be able to begin playing quickly without studying deep lore or excessive terminology. Reveal complexity progressively; keep controls, feedback, objectives, errors, and recovery paths clear.
 
-## Multi-repository behavior
-Before copying code between these repositories, verify purpose, license/provenance, version compatibility, and whether the destination is canonical. Prefer a deliberate port or shared contract over blind duplication. Never overwrite newer canonical work with an older prototype.
+This section governs GitHub Copilot work related to public PR #14, public Issues #12–13, and their successor BUILD-repository work. Status is evidence-based; never infer verification from an issue or pull request being closed or merged.
 
-## Copilot task behavior
-When asked to create or fix something:
-- inspect relevant files, workflows, issues, PR context, and tests;
-- state the root cause or implementation target;
-- make the smallest complete correction;
-- update documentation/contracts affected by the change;
-- run all checks available in the environment;
-- distinguish PASS (actually executed), STATICALLY CHECKED, and NOT RUNTIME VERIFIED;
-- report changed files, evidence, remaining risks, and next executable step.
 
-For GitHub Actions failures, inspect the failing job/logs first, repair the actual failure cause, and avoid weakening required checks merely to make CI green.
 
-## Security and data
-Use privacy-safe identifiers for telemetry. Minimize collected data and document retention/purpose. Treat client input as untrusted for authoritative multiplayer state. Do not commit secrets, tokens, credentials, private keys, or machine-specific configuration.
 
-## Definition of done
-A task is not done because code was generated. It is done only to the level supported by evidence: implementation + relevant static checks/tests + documentation + explicit unresolved runtime gates. Never claim evidence that does not exist.
+### Live tracking state
+
+
+
+
+- `Dlomotion/Echohearts-Rebearth#14` is still open and is a candidate source-control, Git LFS, recovery, and CI baseline. Re-read its current head and compare it with current `main` before reusing or merging anything; do not rely on an older mergeability or commit-count snapshot.
+- Public Issue #12 was closed through merged `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-#2`. Public Issue #13 was transferred to `Dlomotion/Echohearts#3` and closed. These closures record contract/planning work; they are not UE5.8 build or runtime proof.
+
+## 2026-10-09 Eco-Kin intake and Fab-import governance
+
+- Public issues `Dlomotion/Echohearts-Rebearth#48` and `#49` are proposal/reconciliation work only. They do not promote candidates, generated EK labels, source images, stats, forms, or IDs into the 125-ID Permanent Eco-Kin Dex.
+- For #48, keep Terakla, Nyashaq, Trembala, Lithassa, Dunelurk, Kapsa, Tidarak, Mycotrak, Azeni, and Vumbaki in `03_EcoKin_Dex/Intake` until exact/fuzzy name, species-role, anatomy, ecology, originality, source-image, ownership/provenance, and roster-capacity review passes. The issue contains no image binaries; do not claim asset integration until approved original files and provenance records exist.
+- For #49, EK-065 through EK-097 are visual-wave labels, never permanent IDs. The current corrected registry finds Hammerwake at protected `DEX-099` with `PENDING REVIEW`; preserve that slot and do not infer identity approval. Every other candidate remains `PROPOSAL` even when no exact-name match is found. EK-041 through EK-064 remain `REFERENCE / REDESIGN REQUIRED` unless a separate originality pass approves a rebuilt Echohearts-native identity.
+- Route canon/Dex decisions to `Dlomotion/Echohearts-Rebearth`; web presentation to `echohearts-web`; visual source/provenance work to `Echohearts-Ecokins`; executable UE5.8 code, imported packages, tests, and runtime evidence to `ECHOHEARTS-REBEARTH-BUILD-`; treat the remaining repositories as legacy/support surfaces according to their declared role. Never duplicate authoritative media or runtime code across all repositories.
+- `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-#39` is a **draft pull request**, not an issue. Repository-checkable scope is limited to its scripts, schemas, workflow, empty staging roots, path/provenance safeguards, and offline tests. Fab acquisition, entitlement/license review, first pack import, MetaHuman creation/import, redirector/dependency repair, Editor load, PIE, cook, package, server/client, performance, and platform validation require the actual Windows UE5.8 workstation and matching checkout.
+- Record for every third-party asset: listing URL and immutable product identifier where available, publisher/creator, acquisition date/account context without secrets, license/entitlement evidence location, engine/platform compatibility claim, intended role, imported package roots, dependency/plugin requirements, modification restrictions, redistribution limits, source revision, reviewer, and evidence status. Asset-file presence is never runtime proof.
+- The proposed 62 lineage, 45 dynamic-swap, and 12 frequency-band counts and the Prime/Vector/Apex, Prismatic, Obsidian, DNA Fusion, and Colossal/Anomalous terminology are **CONCEPT / NOT CANON-LOCKED** until reconciled with the current Dex, Essence framework, Growth Rite/Mutation/Shimmer rules, Purity/Corruption model, and approved design vocabulary. Do not generate schemas or runtime enums that make these proposals authoritative.
+- If retained after review, habitat morphology must use stable base identity plus an explicit mutually-exclusive morphology state, typed Essence/interaction references, Vibrance/Density/Harmony/Purity only, deterministic validation, versioned save migration, server authority, Anima-Link consequences, and reversible failure handling. Surface overlays must remain cosmetic unless an approved gameplay contract says otherwise.
+- Implementation order: approve the data contract/schema first; then validators and fixtures; then C++/DataAsset or DataTable integration; then versioned serialization; finally UE5.8 compile, Editor, PIE, networking, save/load/rollback, cook/package, and performance evidence.
+- COBOL and BASIC remain optional isolated legacy utilities for deterministic conversion, validation, or reporting with pinned compilers and tests. They must not own UE gameplay/runtime, Fab import, MetaHuman, rendering, replication, save, packaging, or web production responsibilities.
 
 
 ## C++ function, math, and data-definition discipline
@@ -115,3 +62,4 @@ Use official Epic/Unreal documentation as the primary authority for UE behavior.
 
 ## Known CI investigation rule
 For historical Actions job 112065388540, do not infer an argparse failure merely from Python exit code 2. Read the exact archived step output and compare it with the current verify_infrastructure.py CLI and workflow revision before changing arguments. A later green run does not by itself prove UE5.8 runtime correctness.
+
