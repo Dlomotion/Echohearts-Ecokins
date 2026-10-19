@@ -40,3 +40,26 @@ This section governs GitHub Copilot work related to public PR #14, public Issues
 - If retained after review, habitat morphology must use stable base identity plus an explicit mutually-exclusive morphology state, typed Essence/interaction references, Vibrance/Density/Harmony/Purity only, deterministic validation, versioned save migration, server authority, Anima-Link consequences, and reversible failure handling. Surface overlays must remain cosmetic unless an approved gameplay contract says otherwise.
 - Implementation order: approve the data contract/schema first; then validators and fixtures; then C++/DataAsset or DataTable integration; then versioned serialization; finally UE5.8 compile, Editor, PIE, networking, save/load/rollback, cook/package, and performance evidence.
 - COBOL and BASIC remain optional isolated legacy utilities for deterministic conversion, validation, or reporting with pinned compilers and tests. They must not own UE gameplay/runtime, Fab import, MetaHuman, rendering, replication, save, packaging, or web production responsibilities.
+
+
+## C++ function, math, and data-definition discipline
+- Every non-inline function must have a clear declaration/prototype in the appropriate header and exactly one compatible definition; terminate declarations and reflected type definitions with required semicolons.
+- Keep Unreal generated-header ordering and reflection syntax valid. Never concatenate multiple #include directives onto one source line.
+- Define custom functions around actual Echohearts domain behavior, not arbitrary placeholder routines. Names must communicate intent and use established project terminology.
+- Math helpers must document units, coordinate space, tolerances, clamping, invalid-input behavior, determinism requirements, and overflow/collision risks. Add focused tests for boundary conditions.
+- Spatial grids must not rely on a hash value as collision-free identity; retain/compare cell coordinates or provide collision resolution.
+- Network mutation functions must validate authority/ownership, semantic legality, sequence/replay state, rate limits where applicable, finite numeric values, and world bounds before committing state.
+- Client cache checksums detect corruption but are not an authoritative anti-cheat boundary.
+- Async asset-loading code must respect UObject lifetime, callback ownership, cancellation, and game-thread requirements.
+- CSV/import tools must support quoted fields/escaped delimiters or use a robust parser; never treat naive comma splitting as a production CSV implementation.
+- Do not embed unrelated standalone std::iostream demo programs inside Unreal runtime translation units.
+
+## Story/NPC/name registry discipline
+Preserve all established story, NPC, Eco-Kin, location, and system names in canonical registries with stable IDs and display names. Do not mechanically append every story name to every README line. README files should remain navigational; maintain or update a searchable master project/story index and link the relevant README sections to it. Resolve spelling/identity conflicts explicitly rather than silently creating duplicates.
+
+## Research discipline
+Use official Epic/Unreal documentation as the primary authority for UE behavior. Videos, websites, papers, and public repositories may be studied as technical references, but do not copy proprietary code, characters, names, lore, art, or protected implementation. Record provenance/license for imported third-party code or assets and convert general lessons into original Echohearts implementations.
+
+## Known CI investigation rule
+For historical Actions job 112065388540, do not infer an argparse failure merely from Python exit code 2. Read the exact archived step output and compare it with the current verify_infrastructure.py CLI and workflow revision before changing arguments. A later green run does not by itself prove UE5.8 runtime correctness.
+
