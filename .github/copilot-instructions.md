@@ -40,3 +40,14 @@ This section governs GitHub Copilot work related to public PR #14, public Issues
 - If retained after review, habitat morphology must use stable base identity plus an explicit mutually-exclusive morphology state, typed Essence/interaction references, Vibrance/Density/Harmony/Purity only, deterministic validation, versioned save migration, server authority, Anima-Link consequences, and reversible failure handling. Surface overlays must remain cosmetic unless an approved gameplay contract says otherwise.
 - Implementation order: approve the data contract/schema first; then validators and fixtures; then C++/DataAsset or DataTable integration; then versioned serialization; finally UE5.8 compile, Editor, PIE, networking, save/load/rollback, cook/package, and performance evidence.
 - COBOL and BASIC remain optional isolated legacy utilities for deterministic conversion, validation, or reporting with pinned compilers and tests. They must not own UE gameplay/runtime, Fab import, MetaHuman, rendering, replication, save, packaging, or web production responsibilities.
+
+
+## TypeScript repair directive
+Use **TypeScript** for cross-repository diagnostic, validation, schema, migration-planning, CI-support, and safe repair-orchestration tooling where TypeScript already owns the subsystem or an approved tooling contract selects it. Preserve existing Python/build tooling and diagnose native C++/Unreal failures in their owning toolchain. Before proposing a code fix, inspect the owning repository and relevant call sites/config/contracts, reproduce or statically identify the failure when possible, and emit a precise finding. Prefer deterministic checks that can run in CI.
+
+TypeScript tooling should detect and help repair: broken/missing references; malformed JSON/YAML/configuration; schema and stable-ID drift; duplicate or conflicting project contracts; cross-repository divergence; invalid web/tooling types; stale paths; unsafe assumptions in automation; canon terminology violations; and missing validation coverage. Where safe, implement narrowly scoped automatic fixes with dry-run support and tests. For Unreal C++/Blueprint/assets, TypeScript may diagnose, generate reports or bounded migration inputs, but must not claim to compile, execute, or verify Unreal runtime behavior.
+
+The initial reference implementation is the **Echohearts Repo Doctor** in `Dlomotion/Echohearts-Rebearth/tools/repo-doctor` (PR #27 until merged). Extend or consume that contract rather than creating unrelated validators in every repository. Repository-specific adapters are allowed when they feed the same diagnostic model.
+
+A repair is not VERIFIED until the appropriate evidence exists: TypeScript typecheck/tests for TS tooling; Python tests for Python tooling; .NET build/tests for C#; and actual UHT/UBT/editor/PIE/package/runtime evidence for UE5.8 C++. Never translate C++ gameplay into TypeScript merely to make an error disappear.
+
