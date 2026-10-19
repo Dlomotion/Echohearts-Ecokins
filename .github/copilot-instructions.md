@@ -40,3 +40,53 @@ This section governs GitHub Copilot work related to public PR #14, public Issues
 - If retained after review, habitat morphology must use stable base identity plus an explicit mutually-exclusive morphology state, typed Essence/interaction references, Vibrance/Density/Harmony/Purity only, deterministic validation, versioned save migration, server authority, Anima-Link consequences, and reversible failure handling. Surface overlays must remain cosmetic unless an approved gameplay contract says otherwise.
 - Implementation order: approve the data contract/schema first; then validators and fixtures; then C++/DataAsset or DataTable integration; then versioned serialization; finally UE5.8 compile, Editor, PIE, networking, save/load/rollback, cook/package, and performance evidence.
 - COBOL and BASIC remain optional isolated legacy utilities for deterministic conversion, validation, or reporting with pinned compilers and tests. They must not own UE gameplay/runtime, Fab import, MetaHuman, rendering, replication, save, packaging, or web production responsibilities.
+
+## Create-and-repair execution directive — 2026-10-09
+
+When the user asks Copilot to create, implement, expand, connect, repair, or perfect Echohearts work, perform the repository work that this repository actually owns instead of stopping at generic advice or disconnected snippets.
+
+Execution rules:
+- inspect current files, branches, PRs, call sites, tests, workflows, schemas, and build/config contracts before editing;
+- preserve the authority split: `Dlomotion/Echohearts-Rebearth` owns canon/contracts and `Dlomotion/ECHOHEARTS-REBEARTH-BUILD-` owns executable UE5.8 runtime/build/evidence;
+- extend existing implementations instead of creating duplicate systems, Dexes, save authorities, runtime modules, or parallel workflows;
+- diagnose the exact failure and fix the root cause in the language/toolchain that owns it;
+- keep changes focused, reviewable, testable, reversible, and evidence-gated;
+- never hide errors, fabricate engine/platform APIs, or claim VERIFIED from source presence/static checks alone.
+
+### Current in-game presentation continuity
+
+The native Echohearts front-end/title-screen implementation candidate is BUILD PR #37. If this repository contributes art, web presentation, data, documentation, or supporting tooling for that feature, keep it aligned with that runtime implementation rather than inventing a separate in-game front-end authority.
+
+When adapting reference/promotional imagery:
+- treat it as layout/art-direction input only;
+- use original Echohearts art, characters, Eco-Kin, terminology, and accessible UI;
+- do not copy third-party branding/assets into production;
+- do not show storefront-release badges as factual in-game release claims until those releases exist.
+
+### COBOL and BASIC implementation lane
+
+COBOL and BASIC are approved secondary engineering/tooling languages when explicitly requested or when a bounded offline/legacy utility genuinely benefits from them.
+
+Approved scopes:
+- deterministic data conversion and import/export tooling;
+- report generation;
+- Dex/manifest/schema validators;
+- migration utilities;
+- regression/test fixtures;
+- contained command-line support tools.
+
+Preferred tooling when available:
+- GnuCOBOL for `.cob` / `.cbl`;
+- FreeBASIC for `.bas`.
+
+Boundaries:
+- UE5.8 gameplay/runtime remains C++/Unreal-owned;
+- Unreal Target/Module rules remain C#;
+- web implementation stays in the repository's actual JavaScript/TypeScript/HTML/CSS stack;
+- COBOL/BASIC must not be used to dodge an unrelated C++/UHT/linker/web error;
+- COBOL/BASIC output consumed by the game must cross a defined validated data boundary;
+- if a COBOL/BASIC compiler is unavailable, report STATIC/NOT EXECUTED rather than claiming a pass.
+
+Canonical contract: `Dlomotion/Echohearts-Rebearth/09_Technical/LANGUAGE_DIAGNOSTIC_AND_TOOL_SELECTION_STANDARD_2026-10-06.md`.
+
+
